@@ -14,7 +14,7 @@ export class Head extends Component {
       {(user) =>
               user?
                 <>
-                  <p>{user.email}</p>
+                  <p>Email de usuario: {user.email}</p>
                 </>:""
           }
 

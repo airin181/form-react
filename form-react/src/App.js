@@ -15,7 +15,8 @@ function App() {
   } // aquí se le da valores como keys
 
   return (
-    <div>
+    <div className='app-container'>
+      
       <userContext.Provider value={user}>
         <Head/>
         <Form value={register}/>
